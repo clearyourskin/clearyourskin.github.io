@@ -1,0 +1,124 @@
+body {
+	width: 630px;
+	padding: 0;
+	margin: 0;
+	font: 10pt/16pt verdana, sans-serif;
+	background: url(../img/background.gif) repeat-y left;
+}
+
+#container {
+	
+}
+
+#flair {
+	border-width: 0;
+	border-style: dotted;
+	width: 800px;
+	height: 500px;
+	background: url(../img/house.jpg) no-repeat left top;
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+}
+
+#title {
+	border-width: 0px;
+	border-style: dotted;
+	background: url(../img/banner.gif) no-repeat right bottom;
+	width: 435px;
+	height: 225px;
+	z-index: 2;
+	position: relative;
+}
+
+#title span {
+	display: none;
+}
+
+#subtitle {
+	background: url(../img/subtitle.gif) no-repeat right;
+	width: 435px;
+	height: 71px;
+	border-style: dotted;
+	border-width: 0px;
+	z-index: 2;
+	position: relative;
+}
+
+#subtitle span {
+	display: none;
+}
+
+#nav {
+	position: relative;
+	z-index: 2;
+	width: 150px;
+	padding: 0px;
+	border-width: 0;
+	border-style: dotted;
+	float: left;
+	margin: 15px 0px 0px 0px;
+	font-weight: bold;
+	font-size: 8pt;
+	background-image: url(../img/navline.gif);
+	background-repeat: repeat-y;
+}
+
+#nav li {
+	line-height: 2.5ex;
+	list-style-type: none;
+	display: block;
+	padding-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #C5D2E6;
+	border-right-color: #C5D2E6;
+	border-bottom-color: #C5D2E6;
+	border-left-color: #C5D2E6;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-right: 30px;
+}
+
+#content {
+	position: relative;
+	z-index: 2;
+	width: 440px;
+	border-width: 0px;
+	border-style: dotted;
+	float: right;
+	background: transparent;
+	font-size: 8pt;
+	color: #666666;
+}
+
+#pageTitle {
+	border: 0px;
+	padding: 0px;
+	position: relative;
+	left: -18px;
+	margin: 0 0 7px;
+}
+
+p {
+	margin-top: 0;
+}
+
+a {
+	color: #99CCFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#content a {
+	color: #0066FF;
+	font-weight: normal;
+	font-style: normal;
+}
